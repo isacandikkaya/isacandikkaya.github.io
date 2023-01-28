@@ -5,7 +5,7 @@ export default function Main()  {
         {
             icon: <i className="fab text-3xl fa-twitter" />,
             title: '@swoth_',
-            href: 'https://twitter.com/swoth_',
+            href: 'https://twitter.com/dkkyisa',
             desc: 'Twitter'
         },
         {
@@ -17,7 +17,7 @@ export default function Main()  {
         {
             icon: <i className="fab text-3xl fa-discord" />,
             title: 'Swôth#9990',
-            href: 'https://discord.com/users/451444721089380373',
+            href: 'https://discord.com/users/718827316540604427',
             desc: 'Discord'
         }
     ];

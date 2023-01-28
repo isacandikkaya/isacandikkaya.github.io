@@ -58,8 +58,8 @@ export default function Hero() {
                         </div>
                         <h1 className="leading-none text-white font-bold text-4xl">there,</h1>
                     </div>
-                    <h1 className="leading-none text-white font-bold text-4xl">I'm Swôth.</h1>
-                    <p className="pt-3 w-4/5 lg:w-8/12 mx-auto sm:mr-0 sm:ml-auto text-gray-400">Full-Stack Developer. I live in Turkey. I'm high school student and self-improvement person.</p>
+                    <h1 className="leading-none text-white font-bold text-4xl">I'm unknowN.</h1>
+                    <p className="pt-3 w-4/5 lg:w-8/12 mx-auto sm:mr-0 sm:ml-auto text-gray-400">Front-End Developer. I live in Turkey. I'm high school student and self-improvement person.</p>
                 </div>
             </div>
             <div className="waving relative min-h-[230px] mt-10 md:mt-0">
