@@ -14,7 +14,7 @@ export default function Repos() {
     return (
         <div className="w-full py-10">
             <div className="relative w-full">
-                <div className="w-24 h-24 rounded-lg shadow-xl shadow-blue-800/20 bg-gradient-to-bl from-sky-600 to-blue-800" />
+                <div className="w-24 h-24 rounded-lg shadow-xl shadow-blue-800/20 bg-gradient-to-bl from-violet-800 to-violet-400" />
                 <h1 className="heading-text absolute bottom-5 left-5 text-3xl text-white font-bold text-center">GitHub Repositories</h1>
             </div>
             {fetchedRepos ? <div className="p-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
