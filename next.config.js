@@ -6,6 +6,9 @@ const headers = [
 ];
 
 module.exports = {
+  future: {
+    webpack5: true,
+  },
   async headers() {
     return [
       {
