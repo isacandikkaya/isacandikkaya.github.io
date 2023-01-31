@@ -4,19 +4,19 @@ export default function Main()  {
     const contacts = [
         {
             icon: <i className="fab text-3xl fa-twitter" />,
-            title: '@swoth_',
+            title: '@dkkyisa',
             href: 'https://twitter.com/dkkyisa',
             desc: 'Twitter'
         },
-        {
+/*         {
             icon: <i className="fas text-3xl fa-at" />,
-            title: 'me@swoth.xyz',
+            title: 'me@unknowN.xyz',
             href: 'mailto:me@swoth.xyz',
             desc: 'E-Mail'
-        },
+        }, */
         {
             icon: <i className="fab text-3xl fa-discord" />,
-            title: 'Swôth#9990',
+            title: 'unknwn#6575',
             href: 'https://discord.com/users/718827316540604427',
             desc: 'Discord'
         }
