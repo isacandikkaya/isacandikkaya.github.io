@@ -6,6 +6,7 @@ const headers = [
 ];
 
 module.exports = {
+  webpack5: false,
   async headers() {
     return [
       {
