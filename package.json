@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start"
+        "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next start"
     },
     "dependencies": {
         "@headlessui/react": "^1.4.2",
@@ -14,6 +14,7 @@
         "animate.css": "^4.1.1",
         "autoprefixer": "^10.2.6",
         "axios": "^0.26.0",
+        "cross-env": "^7.0.3",
         "crypto-js": "^4.0.0",
         "isomorphic-unfetch": "^3.1.0",
         "mongoose": "^5.12.14",
