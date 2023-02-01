@@ -10,7 +10,7 @@ export default function Index() {
             <Head>
                 <title>Home | unknowN</title>
             </Head>
-            <Hero />
+           {/*  <Hero /> */}
             <Activities />
             <Repos />
             <Techs />
