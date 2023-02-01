@@ -13,7 +13,6 @@ export default async function Techs(req, res) {
         [ "Git", "git.svg" ],
         [ "GitHub", "github.svg" ],
         [ "HeadlessUI", "headless.png" ],
-        [ "IconScout", "iconscout.png" ],
         [ "MongoDB", "mongo.svg" ],
         [ "Node.js", "node.svg" ],
         [ "TailwindCSS", "tailwind.svg" ],
