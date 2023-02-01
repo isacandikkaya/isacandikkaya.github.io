@@ -75,7 +75,7 @@ export default function Header() {
                                             </Link>
                                         )}
                                     </Menu.Item>
-                                    <Menu.Item>
+{/*                                     <Menu.Item>
                                         {({ active }) => (
                                             <Link href="/projects">
                                                 <a className={`flex items-center justify-between ${router.route == '/projects' ? 'text-gray-100 font-semibold' : ''}`}>
@@ -83,7 +83,7 @@ export default function Header() {
                                                 </a>
                                             </Link>
                                         )}
-                                    </Menu.Item>
+                                    </Menu.Item> */}
                                     <Menu.Item>
                                         {({ active }) => (
                                             <Link href="/contact">
