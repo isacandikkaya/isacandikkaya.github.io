@@ -112,13 +112,13 @@ export default function Header() {
                                 </a>
                             </Link>
                         </li>
-                        <li>
+{/*                         <li>
                             <Link href="/projects">
                                 <a className={`flex items-center ${router.route == '/projects' ? 'text-gray-100 font-semibold' : 'hover:text-white transition-all'}`}>
                                     <UilBox /> <h6 className="ml-1">Projects</h6>
                                 </a>
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href="/contact">
                                 <a className={`flex items-center ${router.route == '/contact' ? 'text-gray-100 font-semibold' : 'hover:text-white transition-all'}`}>
