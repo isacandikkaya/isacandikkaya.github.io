@@ -14,7 +14,7 @@ export default function Activities() {
                     ) : (
                         <img className="rounded-full w-auto" src={`https://cdn.discordapp.com/avatars/${profile.id}/${profile.avatar}?size=4096`} />
                     )}
-                    {profile && <Tippy interactive={true} content={profile.status.toUpperCase()}>
+                    {profile && <Tippy interactive={true} content={String(profile?.status.toUpperCase())}>
                         <div className="absolute bottom-1 bg-[#080808] rounded-full right-1 w-6 h-6 flex items-center justify-center">
                             <div className="w-full h-full relative flex items-center justify-center">
                                 <div className={"animate-ping w-3 h-3 rounded-full " + `discord-${profile.status}`} />
